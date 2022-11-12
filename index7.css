@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background: #1B244A;
+    width: 600px;
+    max-width: 600px;
+    padding: 0 0 20px;
+    border-radius: 10px;
+}
+
+.container-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-div h3{
+    margin: 10px;
+    font-family: "Verdana Pro Cond", sans-serif;
+    color: #eee;
+}
+
+#scoreH, #scoreG{
+    font-size: 60px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    color: red;
+    background: #000;
+    width: 120px;
+    max-width: 120px;
+    padding: 10px 20px 0;
+    display: flex;
+    justify-content: end;
+    border-radius: 10px;
+}
+
+.timer{
+    font-size: 20px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    color: red;
+    background: #000;
+    width: 120px;
+    max-width: 120px;
+    padding-top: 4px;
+    margin: 20px 0 0;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.buttons{
+    margin-top: 20px;
+    font-family: inherit;
+    display: flex;
+    justify-content: space-between;
+    width: 80px;
+}
+
+.buttons button{
+    color: #fff;
+    background: #0a0f25;
+    padding: 3px;
+    border: #ddd 1px solid;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.bs-timers{
+    margin-top: 20px;
+}
+
+.bs-timer{
+    width: 120px;
+    display: flex;
+    justify-content: space-around;
+    margin: unset;
+}
+
+.bs-timer button{
+    width: 60px;
+    margin: 2px;
+}
+
+.bs-t-2 button{
+    width: 120px;
+}
+
+.new-game{
+    color: #fff;
+    background: #0a0f25;
+    padding: 3px;
+    border: #ddd 1px solid;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 160px;
+}
+
+.fouls{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+}
+
+.fouls-h{
+    flex-direction: row;
+}
+
+.n-fouls{
+    font-size: 20px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    color: red;
+    background: #000;
+    width: 30px;
+    max-width: 120px;
+    padding-top: 4px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.f-buttons{
+    margin-right: 10px;
+}
+
+.f-bs-h{
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+.f-buttons button{
+    color: #fff;
+    background: #0a0f25;
+    padding: 3px;
+    border: #ddd 1px solid;
+    border-radius: 4px;
+    cursor: pointer;
+}
