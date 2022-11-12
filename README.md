@@ -1,2 +1,1 @@
-# Basket-dashboard
- 
+This poject is only an exercise
